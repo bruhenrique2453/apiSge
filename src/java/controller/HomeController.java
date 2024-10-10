@@ -23,7 +23,7 @@ import model.dao.DisciplinaDAO;
  *
  * @author aluno
  */
-@WebServlet(name = "HomeController", urlPatterns = {"/HomeController", "/ola", "/disciplinas"})
+@WebServlet(name = "HomeController", urlPatterns = {"/HomeController", "/ola"})
 public class HomeController extends HttpServlet {
 
     Gson conversor = new Gson();
